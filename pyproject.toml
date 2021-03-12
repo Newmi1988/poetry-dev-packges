@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "newmi1988-dev-deps"
+name = "newmi1988_dev_deps"
 version = "0.1.0"
 description = "A package to bundle all dev deps for poetry projects"
 authors = ["Tobias Newmiwaka <newmi1988@gmail.com>"]
