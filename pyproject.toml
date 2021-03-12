@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry-dev-packges"
+version = "0.1.0"
+description = "A package to bundle all dev deps for poetry projects"
+authors = ["Tobias Newmiwaka <newmi1988@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+autopep8 = "^1.5.5"
+pynvim = "^0.4.3"
+nox = "^2020.12.31"
+rope = "^0.18.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
